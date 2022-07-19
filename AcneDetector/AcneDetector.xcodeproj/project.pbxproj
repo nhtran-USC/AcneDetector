@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2656DCB9288639C50066E644 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2656DCB8288639C50066E644 /* AppDelegate.swift */; };
+		2656DCBB288639C50066E644 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2656DCBA288639C50066E644 /* SceneDelegate.swift */; };
+		2656DCBD288639C50066E644 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2656DCBC288639C50066E644 /* ViewController.swift */; };
+		2656DCC0288639C50066E644 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2656DCBE288639C50066E644 /* Main.storyboard */; };
+		2656DCC2288639C50066E644 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2656DCC1288639C50066E644 /* Assets.xcassets */; };
+		2656DCC5288639C50066E644 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2656DCC3288639C50066E644 /* LaunchScreen.storyboard */; };
+		2656DCD0288639C60066E644 /* AcneDetectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2656DCCF288639C60066E644 /* AcneDetectorTests.swift */; };
+		2656DCDA288639C60066E644 /* AcneDetectorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2656DCD9288639C60066E644 /* AcneDetectorUITests.swift */; };
+		2656DCDC288639C60066E644 /* AcneDetectorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2656DCDB288639C60066E644 /* AcneDetectorUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2656DCCC288639C60066E644 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2656DCAD288639C50066E644 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2656DCB4288639C50066E644;
+			remoteInfo = AcneDetector;
+		};
+		2656DCD6288639C60066E644 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2656DCAD288639C50066E644 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2656DCB4288639C50066E644;
+			remoteInfo = AcneDetector;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2656DCB5288639C50066E644 /* AcneDetector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AcneDetector.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2656DCB8288639C50066E644 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2656DCBA288639C50066E644 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2656DCBC288639C50066E644 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2656DCBF288639C50066E644 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2656DCC1288639C50066E644 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2656DCC4288639C50066E644 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2656DCC6288639C50066E644 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2656DCCB288639C60066E644 /* AcneDetectorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AcneDetectorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2656DCCF288639C60066E644 /* AcneDetectorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcneDetectorTests.swift; sourceTree = "<group>"; };
+		2656DCD5288639C60066E644 /* AcneDetectorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AcneDetectorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2656DCD9288639C60066E644 /* AcneDetectorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcneDetectorUITests.swift; sourceTree = "<group>"; };
+		2656DCDB288639C60066E644 /* AcneDetectorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcneDetectorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2656DCB2288639C50066E644 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2656DCC8288639C60066E644 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2656DCD2288639C60066E644 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2656DCAC288639C50066E644 = {
+			isa = PBXGroup;
+			children = (
+				2656DCB7288639C50066E644 /* AcneDetector */,
+				2656DCCE288639C60066E644 /* AcneDetectorTests */,
+				2656DCD8288639C60066E644 /* AcneDetectorUITests */,
+				2656DCB6288639C50066E644 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2656DCB6288639C50066E644 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2656DCB5288639C50066E644 /* AcneDetector.app */,
+				2656DCCB288639C60066E644 /* AcneDetectorTests.xctest */,
+				2656DCD5288639C60066E644 /* AcneDetectorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2656DCB7288639C50066E644 /* AcneDetector */ = {
+			isa = PBXGroup;
+			children = (
+				2656DCB8288639C50066E644 /* AppDelegate.swift */,
+				2656DCBA288639C50066E644 /* SceneDelegate.swift */,
+				2656DCBC288639C50066E644 /* ViewController.swift */,
+				2656DCBE288639C50066E644 /* Main.storyboard */,
+				2656DCC1288639C50066E644 /* Assets.xcassets */,
+				2656DCC3288639C50066E644 /* LaunchScreen.storyboard */,
+				2656DCC6288639C50066E644 /* Info.plist */,
+			);
+			path = AcneDetector;
+			sourceTree = "<group>";
+		};
+		2656DCCE288639C60066E644 /* AcneDetectorTests */ = {
+			isa = PBXGroup;
+			children = (
+				2656DCCF288639C60066E644 /* AcneDetectorTests.swift */,
+			);
+			path = AcneDetectorTests;
+			sourceTree = "<group>";
+		};
+		2656DCD8288639C60066E644 /* AcneDetectorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2656DCD9288639C60066E644 /* AcneDetectorUITests.swift */,
+				2656DCDB288639C60066E644 /* AcneDetectorUITestsLaunchTests.swift */,
+			);
+			path = AcneDetectorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2656DCB4288639C50066E644 /* AcneDetector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2656DCDF288639C60066E644 /* Build configuration list for PBXNativeTarget "AcneDetector" */;
+			buildPhases = (
+				2656DCB1288639C50066E644 /* Sources */,
+				2656DCB2288639C50066E644 /* Frameworks */,
+				2656DCB3288639C50066E644 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AcneDetector;
+			productName = AcneDetector;
+			productReference = 2656DCB5288639C50066E644 /* AcneDetector.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2656DCCA288639C60066E644 /* AcneDetectorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2656DCE2288639C60066E644 /* Build configuration list for PBXNativeTarget "AcneDetectorTests" */;
+			buildPhases = (
+				2656DCC7288639C60066E644 /* Sources */,
+				2656DCC8288639C60066E644 /* Frameworks */,
+				2656DCC9288639C60066E644 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2656DCCD288639C60066E644 /* PBXTargetDependency */,
+			);
+			name = AcneDetectorTests;
+			productName = AcneDetectorTests;
+			productReference = 2656DCCB288639C60066E644 /* AcneDetectorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2656DCD4288639C60066E644 /* AcneDetectorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2656DCE5288639C60066E644 /* Build configuration list for PBXNativeTarget "AcneDetectorUITests" */;
+			buildPhases = (
+				2656DCD1288639C60066E644 /* Sources */,
+				2656DCD2288639C60066E644 /* Frameworks */,
+				2656DCD3288639C60066E644 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2656DCD7288639C60066E644 /* PBXTargetDependency */,
+			);
+			name = AcneDetectorUITests;
+			productName = AcneDetectorUITests;
+			productReference = 2656DCD5288639C60066E644 /* AcneDetectorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2656DCAD288639C50066E644 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					2656DCB4288639C50066E644 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					2656DCCA288639C60066E644 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 2656DCB4288639C50066E644;
+					};
+					2656DCD4288639C60066E644 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 2656DCB4288639C50066E644;
+					};
+				};
+			};
+			buildConfigurationList = 2656DCB0288639C50066E644 /* Build configuration list for PBXProject "AcneDetector" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2656DCAC288639C50066E644;
+			productRefGroup = 2656DCB6288639C50066E644 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2656DCB4288639C50066E644 /* AcneDetector */,
+				2656DCCA288639C60066E644 /* AcneDetectorTests */,
+				2656DCD4288639C60066E644 /* AcneDetectorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2656DCB3288639C50066E644 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2656DCC5288639C50066E644 /* LaunchScreen.storyboard in Resources */,
+				2656DCC2288639C50066E644 /* Assets.xcassets in Resources */,
+				2656DCC0288639C50066E644 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2656DCC9288639C60066E644 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2656DCD3288639C60066E644 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2656DCB1288639C50066E644 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2656DCBD288639C50066E644 /* ViewController.swift in Sources */,
+				2656DCB9288639C50066E644 /* AppDelegate.swift in Sources */,
+				2656DCBB288639C50066E644 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2656DCC7288639C60066E644 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2656DCD0288639C60066E644 /* AcneDetectorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2656DCD1288639C60066E644 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2656DCDA288639C60066E644 /* AcneDetectorUITests.swift in Sources */,
+				2656DCDC288639C60066E644 /* AcneDetectorUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2656DCCD288639C60066E644 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2656DCB4288639C50066E644 /* AcneDetector */;
+			targetProxy = 2656DCCC288639C60066E644 /* PBXContainerItemProxy */;
+		};
+		2656DCD7288639C60066E644 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2656DCB4288639C50066E644 /* AcneDetector */;
+			targetProxy = 2656DCD6288639C60066E644 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2656DCBE288639C50066E644 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2656DCBF288639C50066E644 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2656DCC3288639C50066E644 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2656DCC4288639C50066E644 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2656DCDD288639C60066E644 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2656DCDE288639C60066E644 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2656DCE0288639C60066E644 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AcneDetector/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.AcneDetector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2656DCE1288639C60066E644 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AcneDetector/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.AcneDetector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2656DCE3288639C60066E644 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.AcneDetectorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AcneDetector.app/AcneDetector";
+			};
+			name = Debug;
+		};
+		2656DCE4288639C60066E644 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.AcneDetectorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AcneDetector.app/AcneDetector";
+			};
+			name = Release;
+		};
+		2656DCE6288639C60066E644 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.AcneDetectorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AcneDetector;
+			};
+			name = Debug;
+		};
+		2656DCE7288639C60066E644 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.AcneDetectorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AcneDetector;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2656DCB0288639C50066E644 /* Build configuration list for PBXProject "AcneDetector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2656DCDD288639C60066E644 /* Debug */,
+				2656DCDE288639C60066E644 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2656DCDF288639C60066E644 /* Build configuration list for PBXNativeTarget "AcneDetector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2656DCE0288639C60066E644 /* Debug */,
+				2656DCE1288639C60066E644 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2656DCE2288639C60066E644 /* Build configuration list for PBXNativeTarget "AcneDetectorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2656DCE3288639C60066E644 /* Debug */,
+				2656DCE4288639C60066E644 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2656DCE5288639C60066E644 /* Build configuration list for PBXNativeTarget "AcneDetectorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2656DCE6288639C60066E644 /* Debug */,
+				2656DCE7288639C60066E644 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2656DCAD288639C50066E644 /* Project object */;
+}
