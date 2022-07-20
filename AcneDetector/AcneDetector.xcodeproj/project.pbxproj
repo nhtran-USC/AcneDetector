@@ -16,6 +16,8 @@
 		2656DCD0288639C60066E644 /* AcneDetectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2656DCCF288639C60066E644 /* AcneDetectorTests.swift */; };
 		2656DCDA288639C60066E644 /* AcneDetectorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2656DCD9288639C60066E644 /* AcneDetectorUITests.swift */; };
 		2656DCDC288639C60066E644 /* AcneDetectorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2656DCDB288639C60066E644 /* AcneDetectorUITestsLaunchTests.swift */; };
+		2656DCE9288641460066E644 /* AcneClassifier 1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 2656DCE8288641460066E644 /* AcneClassifier 1.mlmodel */; };
+		2656DCEB28875D250066E644 /* ImagePredictor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2656DCEA28875D250066E644 /* ImagePredictor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		2656DCD5288639C60066E644 /* AcneDetectorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AcneDetectorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2656DCD9288639C60066E644 /* AcneDetectorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcneDetectorUITests.swift; sourceTree = "<group>"; };
 		2656DCDB288639C60066E644 /* AcneDetectorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcneDetectorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2656DCE8288641460066E644 /* AcneClassifier 1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = "AcneClassifier 1.mlmodel"; path = "../../AcneClassifier 1.mlmodel"; sourceTree = "<group>"; };
+		2656DCEA28875D250066E644 /* ImagePredictor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePredictor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				2656DCC1288639C50066E644 /* Assets.xcassets */,
 				2656DCC3288639C50066E644 /* LaunchScreen.storyboard */,
 				2656DCC6288639C50066E644 /* Info.plist */,
+				2656DCE8288641460066E644 /* AcneClassifier 1.mlmodel */,
+				2656DCEA28875D250066E644 /* ImagePredictor.swift */,
 			);
 			path = AcneDetector;
 			sourceTree = "<group>";
@@ -259,8 +265,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2656DCBD288639C50066E644 /* ViewController.swift in Sources */,
+				2656DCE9288641460066E644 /* AcneClassifier 1.mlmodel in Sources */,
 				2656DCB9288639C50066E644 /* AppDelegate.swift in Sources */,
 				2656DCBB288639C50066E644 /* SceneDelegate.swift in Sources */,
+				2656DCEB28875D250066E644 /* ImagePredictor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +445,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K364XH8NLX;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AcneDetector/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -464,6 +473,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K364XH8NLX;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AcneDetector/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
