@@ -8,10 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Home View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AcneDetector" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="HomeViewController" customModule="AcneDetector" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -56,11 +56,44 @@
                     <connections>
                         <outlet property="resultLabel" destination="f7o-OD-xry" id="1qL-1S-QE8"/>
                         <outlet property="selectedImageView" destination="62N-wc-6ra" id="Kqz-90-dmW"/>
+                        <segue destination="Ax1-Ax-UA4" kind="show" identifier="homeToInfoSegue" id="omI-bY-gln"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="28.985507246376812" y="69.642857142857139"/>
+        </scene>
+        <!--Info View Controller-->
+        <scene sceneID="mu5-a0-o9o">
+            <objects>
+                <viewController id="Ax1-Ax-UA4" customClass="InfoViewController" customModule="AcneDetector" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Uv1-cV-D7b">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FKR-i8-Fxr">
+                                <rect key="frame" x="0.0" y="44" width="414" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="waN-wa-Vxd"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="FKR-i8-Fxr" firstAttribute="leading" secondItem="waN-wa-Vxd" secondAttribute="leading" id="PQN-u4-vNk"/>
+                            <constraint firstItem="FKR-i8-Fxr" firstAttribute="trailing" secondItem="waN-wa-Vxd" secondAttribute="trailing" id="mai-N7-6fz"/>
+                            <constraint firstItem="FKR-i8-Fxr" firstAttribute="top" secondItem="waN-wa-Vxd" secondAttribute="top" id="nb1-NK-myv"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="kjH-so-AG4"/>
+                    <connections>
+                        <outlet property="infoLabel" destination="FKR-i8-Fxr" id="LVi-LL-hpn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QPa-Fb-wHE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="869.56521739130437" y="69.642857142857139"/>
         </scene>
     </scenes>
     <resources>
